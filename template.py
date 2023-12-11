@@ -80,7 +80,7 @@ list_of_files = [
 
 for filepath in list_of_files:
     filepath = Path(filepath)
-    filedir, filename = filepath.parent, filepath.name
+    filedir, filename = filepath.parent, filepath.nameconda 
 
     os.makedirs(filedir, exist_ok=True)
 
